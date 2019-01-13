@@ -279,7 +279,3 @@ However, you should note that this option doesn't mean anything if you didn't
 persist your database volumes. Because if it is not persisted, then it will be lost 
 on restart because docker will recreate the container.
 
-## Credits
-
-Tim Sutton (tim@kartoza.com)
-May 2014
