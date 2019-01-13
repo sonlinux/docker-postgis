@@ -1,6 +1,6 @@
 #--------- Generic stuff all our Dockerfiles should start with so we get caching ------------
 FROM debian:stable
-MAINTAINER Tim Sutton<tim@kartoza.com>
+MAINTAINER Alison Mukoma <mukomalison@gmail.com>
 
 RUN  export DEBIAN_FRONTEND=noninteractive
 ENV  DEBIAN_FRONTEND noninteractive

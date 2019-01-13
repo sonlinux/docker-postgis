@@ -3,7 +3,7 @@ version: '2'
 
 services:
   pg-master:
-    image: 'kartoza/postgis:manual-build'
+    image: 'alisonmukoma/postgis:manual-build'
     restart: 'always'
     # You can optionally mount to volume, to play with the persistence and
     # observe how the slave will behave after restarts.
@@ -24,7 +24,7 @@ services:
       - "7777:5432"
 
   pg-slave:
-    image: 'kartoza/postgis:manual-build'
+    image: 'alisonmukoma/postgis:manual-build'
     restart: 'always'
     # You can optionally mount to volume, but we're not able to scale it
     # in that case.
